@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "category": "factual recall",
+    "difficulty": "easy",
+    "question": "In what year did the Berlin Wall open, allowing free movement between East and West Berlin?",
+    "answer": "1989"
+  },
+  {
+    "id": 2,
+    "category": "factual recall",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for the element sodium?",
+    "answer": "Na"
+  },
+  {
+    "id": 3,
+    "category": "factual recall",
+    "difficulty": "medium",
+    "question": "What is the capital city of Canada?",
+    "answer": "Ottawa"
+  },
+  {
+    "id": 4,
+    "category": "factual recall",
+    "difficulty": "hard",
+    "question": "What is the SI value of the speed of light in vacuum in meters per second (exact definition)?",
+    "answer": "299792458"
+  },
+  {
+    "id": 5,
+    "category": "logical reasoning",
+    "difficulty": "easy",
+    "question": "If all bloops are flinks, and X is a bloop, what must be true about X?",
+    "answer": "X is a flink."
+  },
+  {
+    "id": 6,
+    "category": "logical reasoning",
+    "difficulty": "medium",
+    "question": "If the statement \"If it rains, the ground is wet\" is true, and the ground is not wet, what can you conclude about whether it rained?",
+    "answer": "It did not rain."
+  },
+  {
+    "id": 7,
+    "category": "logical reasoning",
+    "difficulty": "hard",
+    "question": "In propositional logic, what is the truth value of (P AND (NOT P)) for any proposition P?",
+    "answer": "False (a contradiction)."
+  },
+  {
+    "id": 8,
+    "category": "logical reasoning",
+    "difficulty": "medium",
+    "question": "What is the next integer in the sequence 3, 7, 15, 31, 63?",
+    "answer": "127"
+  },
+  {
+    "id": 9,
+    "category": "common sense reasoning",
+    "difficulty": "easy",
+    "question": "Why does a metal spoon left in a cup of hot tea feel hot to the touch?",
+    "answer": "Because metal conducts heat from the hot liquid to your hand efficiently."
+  },
+  {
+    "id": 10,
+    "category": "common sense reasoning",
+    "difficulty": "medium",
+    "question": "If every item in box A is red, and object B is not red, can object B be in box A?",
+    "answer": "No."
+  },
+  {
+    "id": 11,
+    "category": "common sense reasoning",
+    "difficulty": "hard",
+    "question": "You see wet pavement but no rain falling now. Is it valid to conclude it must currently be raining?",
+    "answer": "No; the wetness could be from earlier rain, sprinklers, or other causes."
+  },
+  {
+    "id": 12,
+    "category": "language understanding",
+    "difficulty": "easy",
+    "question": "What grammatical role does the word \"quickly\" play in the sentence \"She quickly closed the door\"?",
+    "answer": "Adverb (modifying the verb \"closed\")."
+  },
+  {
+    "id": 13,
+    "category": "language understanding",
+    "difficulty": "medium",
+    "question": "Complete the analogy with a single word: \"Ocean is to fish as sky is to ___\" (same kind of relationship).",
+    "answer": "bird"
+  },
+  {
+    "id": 14,
+    "category": "language understanding",
+    "difficulty": "medium",
+    "question": "Which word is correct in this sentence: \"The committee issued ___ report\" — \"its\" or \"it's\"?",
+    "answer": "its"
+  },
+  {
+    "id": 15,
+    "category": "language understanding",
+    "difficulty": "hard",
+    "question": "In English morphology, what is the term for a word formed by shortening a longer word (for example, \"exam\" from \"examination\")?",
+    "answer": "Clipping (or clipped form)."
+  },
+  {
+    "id": 16,
+    "category": "multi-step problem solving",
+    "difficulty": "easy",
+    "question": "Evaluate the expression 2 + 3 × 4 using standard order of operations.",
+    "answer": "14"
+  },
+  {
+    "id": 17,
+    "category": "multi-step problem solving",
+    "difficulty": "medium",
+    "question": "A store marks up a wholesale cost of $50 by 40% to set the retail price, then offers a 20% discount on that retail price. What is the final price in dollars?",
+    "answer": "56"
+  },
+  {
+    "id": 18,
+    "category": "multi-step problem solving",
+    "difficulty": "medium",
+    "question": "Two trains travel toward each other on the same track from towns 300 miles apart. One travels at 70 mph and the other at 80 mph. In how many hours after they start will they meet?",
+    "answer": "2"
+  },
+  {
+    "id": 19,
+    "category": "multi-step problem solving",
+    "difficulty": "hard",
+    "question": "How many positive integers less than or equal to 100 are divisible by 3 or by 5 but not by both 3 and 5?",
+    "answer": "41"
+  },
+  {
+    "id": 20,
+    "category": "factual recall",
+    "difficulty": "medium",
+    "question": "How many chromosomes are in a typical human somatic cell?",
+    "answer": "46"
+  }
+]
