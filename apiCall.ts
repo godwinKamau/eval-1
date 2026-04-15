@@ -1,3 +1,5 @@
+import models from './models.json' with { type: 'json' }
+
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -10,7 +12,7 @@ let response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'nvidia/nemotron-3-super-120b-a12b:free',
+      model: models.test_model,
       messages: [
         {
           role: 'system',

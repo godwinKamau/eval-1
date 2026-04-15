@@ -1,3 +1,4 @@
+import models from './models.json' with { type: 'json' }
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -44,6 +45,7 @@ function stripCodeFences(text: string): string {
 }
 
 function parseEvaluatorResult(content: string): EvaluatorResult {
+  console.log("(CONTENT) ", content)
   const jsonStr = stripCodeFences(content);
   const parsed = JSON.parse(jsonStr) as { score?: unknown; feedback?: unknown };
   const score = Number(parsed.score);
@@ -67,7 +69,7 @@ export async function evaluator(
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'arcee-ai/trinity-large-preview:free',
+      model: models.evaluation_model,
       messages: [
         { role: 'system', content: evaluator_system_prompt },
         { role: 'user', content: evaluator_user_prompt(question, answer, reference_answer) },

@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "upload": "node uploadDataset.ts",
+    "braintrust": "node evalToBraintrust.ts",
+    "run local": "node datasetRunthrough.ts"
   },
   "repository": {
     "type": "git",

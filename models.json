@@ -1,0 +1,4 @@
+{
+    "test_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+    "evaluation_model": "z-ai/glm-4.5-air:free"
+}

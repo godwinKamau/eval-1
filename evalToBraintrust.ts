@@ -11,7 +11,11 @@ async function main() {
 
   const dataset = initDataset("My Project", { dataset: "Evaluation Dataset" });
 
+  const maxRows = 5;
+  let row = 0;
   for await (const item of dataset) {
+    if (row >= maxRows) break;
+    row++;
     const question = item.input.question;
     const answer = await apiCall(question);
     const reference_answer = item.expected.answer;
