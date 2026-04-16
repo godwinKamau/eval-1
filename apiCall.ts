@@ -12,7 +12,7 @@ let response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: models.test_model,
+      model: models.models.test_model,
       messages: [
         {
           role: 'system',

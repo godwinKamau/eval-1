@@ -1,4 +1,6 @@
-{
-    "evaluation_model": "nvidia/nemotron-3-nano-30b-a3b:free",
-    "test_model": "kwaipilot/kat-coder-pro-v2"
+{   "experimentName": "Eval Test",
+    "models": {
+        "evaluation_model": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "test_model": "kwaipilot/kat-coder-pro-v2"
+    }
 }
