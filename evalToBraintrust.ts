@@ -11,7 +11,7 @@ async function main() {
 
   const dataset = initDataset("My Project", { dataset: "Evaluation Dataset" });
 
-  const maxRows = 5;
+  const maxRows = 10;
   let row = 0;
   for await (const item of dataset) {
     if (row >= maxRows) break;
