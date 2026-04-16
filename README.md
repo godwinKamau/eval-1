@@ -53,7 +53,6 @@ Create a `.env` file in the project root:
 
 ```
 OPENROUTER_API_KEY=<your-openrouter-key>
-OPENROUTER_API_KEY_2=<your-second-openrouter-key-if-youre-broke>
 BRAINTRUST_API_KEY=<your-braintrust-key>
 ```
 
@@ -104,7 +103,6 @@ The workflow at `.github/workflows/eval.yml` automatically runs the Braintrust e
 | Secret | Description |
 |---|---|
 | `OPENROUTER_API_KEY` | OpenRouter API key |
-| `OPENROUTER_API_KEY_2` | Second OpenRouter API key (used at runtime) |
 | `BRAINTRUST_API_KEY` | Braintrust API key |
 
 Each push will produce a new experiment entry in Braintrust, making it easy to compare model performance across commits or model swaps.
