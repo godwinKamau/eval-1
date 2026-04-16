@@ -69,7 +69,7 @@ export async function evaluator(
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: models.evaluation_model,
+      model: models.models.evaluation_model,
       messages: [
         { role: 'system', content: evaluator_system_prompt },
         { role: 'user', content: evaluator_user_prompt(question, answer, reference_answer) },

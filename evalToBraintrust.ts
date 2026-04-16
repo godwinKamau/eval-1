@@ -1,17 +1,18 @@
 import { initExperiment, initDataset } from "braintrust";
 import { evaluator } from "./evaluator.ts";
 import { apiCall } from "./apiCall.ts";
+import models from './models.json' with { type: 'json' }
 import dotenv from 'dotenv';
 dotenv.config();
 
 async function main() {
   const experiment = initExperiment("My Project", {
-    experiment: "My custom experiment",
+    experiment: models.experimentName,
   });
 
   const dataset = initDataset("My Project", { dataset: "Evaluation Dataset" });
 
-  const maxRows = 7;
+  const maxRows = 7; //Change this to the number of questions you want to evaluate. Max is 20
   let row = 0;
   for await (const item of dataset) {
     if (row >= maxRows) break;
