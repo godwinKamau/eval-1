@@ -1,4 +1,4 @@
 {
     "evaluation_model": "nvidia/nemotron-3-nano-30b-a3b:free",
-    "test_model": "z-ai/glm-4.5-air:free"
+    "test_model": "kwaipilot/kat-coder-pro-v2"
 }
